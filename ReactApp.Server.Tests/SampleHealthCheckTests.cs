@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using ReactApp.Server.HealthChecks;
+using Xunit;
 
 namespace ReactApp.Server.Tests;
 

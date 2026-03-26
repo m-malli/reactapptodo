@@ -1,6 +1,7 @@
 using System.Net;
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc.Testing;
+using Xunit;
 
 namespace ReactApp.Server.Tests;
 
@@ -16,7 +17,7 @@ public class HealthEndpointTests : IClassFixture<WebApplicationFactory<Program>>
         });
     }
 
-    [Fact]
+    [Xunit.Fact]
     public async Task GetHealth_ReturnsOk()
     {
         var response = await _client.GetAsync("/health");
@@ -24,7 +25,7 @@ public class HealthEndpointTests : IClassFixture<WebApplicationFactory<Program>>
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
     }
 
-    [Fact]
+    [Xunit.Fact]
     public async Task GetHealth_ReturnsJsonContentType()
     {
         var response = await _client.GetAsync("/health");

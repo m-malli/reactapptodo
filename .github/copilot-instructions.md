@@ -1,0 +1,5 @@
+- Backend: ASP.NET Core, prefer Minimal APIs where possible
+- Validation via FluentValidation or DataAnnotations
+- Frontend: React + TypeScript, prefer hooks
+- Avoid any `any` in TypeScript
+- Follow existing folder structure strictly

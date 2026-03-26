@@ -28,10 +28,10 @@ C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\staticwebassets.build.json
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\staticwebassets.development.json
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\staticwebassets.build.endpoints.json
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\swae.build.ex.cache
-C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\ReactApp.2F656C89.Up2Date
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\ReactApp.Server.dll
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\refint\ReactApp.Server.dll
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\ReactApp.Server.pdb
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\ReactApp.Server.genruntimeconfig.cache
 C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\ref\ReactApp.Server.dll
+C:\Learning\ReactApp\ReactApp.Server\obj\Debug\net9.0\ReactApp.Server.sourcelink.json
