@@ -1,5 +1,5 @@
-import { render, screen } from '@testing-library/react';
-import { describe, it, expect, vi } from 'vitest';
+import { render, screen, cleanup } from '@testing-library/react';
+import { describe, it, expect, vi, afterEach } from 'vitest';
 import { HealthStatus } from '../components/HealthStatus';
 import type { HealthReport } from '../hooks/useHealthCheck';
 
@@ -16,6 +16,10 @@ function setMockReport(report: HealthReport) {
 }
 
 describe('HealthStatus', () => {
+    afterEach(() => {
+        cleanup();
+    });
+
     it('renders Healthy status with green banner class', () => {
         setMockReport({
             status: 'Healthy',
