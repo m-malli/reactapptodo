@@ -4,7 +4,7 @@ import { useHealthCheck } from '../hooks/useHealthCheck';
 
 describe('useHealthCheck', () => {
     beforeEach(() => {
-        vi.useFakeTimers();
+        vi.useFakeTimers({ shouldAdvanceTime: true });
     });
 
     afterEach(() => {
